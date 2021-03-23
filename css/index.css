@@ -1,15 +1,15 @@
 .nav {
   display: flex;
   justify-content: flex-start;
-  }
-  
+}
+
 .nav-content {
   list-style-type: none;
   display: flex;
   margin-top: -1px;
   margin-left: -20px;
   border-style: solid;
-  border-color: #DCDCDC;
+  border-color: #dcdcdc;
   border-top: hidden;
   border-right: hidden;
   padding-bottom: 10px;
@@ -19,5 +19,5 @@
 .nav-link {
   text-decoration: none;
   color: black;
-  margin: 20px;
+  margin: 20px; 
 }
