@@ -127,3 +127,19 @@ width: 480px;
     margin-right: auto;
 }
 
+.third_article {
+    display: block;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first_element {
+    display: block;
+    width: 200px;
+}
+
+.first_element_picture {
+    display: flex;
+    width: 200px;
+}
