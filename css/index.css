@@ -1,23 +1,79 @@
 .nav {
-  display: flex;
-  justify-content: flex-start;
+  border: black;
+  border-style: solid;
+  border-width: 1px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: #dcdcdc;
+  /*
+  position: fixed;
+  background-color: white;
+  margin-top: -30px;
+  width: 1280px;*/
 }
 
 .nav-content {
-  list-style-type: none;
   display: flex;
-  margin-top: -1px;
-  margin-left: -20px;
-  border-style: solid;
-  border-color: #dcdcdc;
-  border-top: hidden;
-  border-right: hidden;
-  padding-bottom: 10px;
-  border-width: 1px;
-}
+  list-style-type: none;
+ }
 
 .nav-link {
   text-decoration: none;
+  margin: 5px;
   color: black;
-  margin: 20px;
+}
+
+.header_title {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-style: italic;
+  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+}
+
+#hr {
+  display: flex;
+  width: 500px;
+}
+
+.header_contact {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-right:280px;
+}
+
+.contact_link {
+  display: flex;
+  margin:10px;
+  border: solid;
+  padding: 4px;
+  border-color: #e8e8e8;
+  border-radius: 50%;
+  border-width: 1px;
+  background-color: #e8e8e8;
+}
+
+.contact_link:hover {
+  border-color: red;
+}
+
+.header_img {
+  display: block;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img_desc {
+    display: block;
+    width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #666;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+}
+.des_span{
+    color: #a8a8a8;
 }
