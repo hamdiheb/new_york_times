@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-with, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>The new york times</title>
         <link href="css/index.css" rel="stylesheet" />
         <link rel="shortcut icon" href="img/new-york-times-icon.png" />
@@ -10,27 +10,34 @@
     <body>
         <nav class="nav">
             <ul class="nav-content">
-                <li class="nav-link"><a href=""><img src="img/nav_menu.pn" alt="nav menu"/></a></li>
-                <li class="nav-link"><a href=""><img src="img/nav_menu.pn" alt="nav menu"/></a></li>
-                <li class="nav-link"><a href="">Space & Cosmos</a></li>
-                <li class="nav-link"><a href="">The New York Times</a></li>
-                <li class="nav-link"><a href=""><input type="button" value="SUBSCRIBE NOW" /></a></li>
-                <li class="nav-link"><a href=""><input type="button" value="LOG IN" /></a></li>
+                <li><a class="nav-link" href=""><img src="img/list.svg" alt="nav menu"/></a></li>
+                <li><a class="nav-link" href=""><img src="img/search.svg" alt="nav search"/></a></li>
+                <li><a class="nav-link" href="">Space & Cosmos</a></li>
+                <li><a class="nav-link" href="">The New York Times</a></li>
+                <li><input type="button" value="SUBSCRIBE NOW" class="nav-link"/></li>
+                <li><input type="button" value="LOG IN" class="nav-link"/></li>
             </ul>
         </nav>
+        <header>
+            <h1 class="header_title">Space Ripples Reveal Big Bang’s Smoking Gun</h1>
+            <hr id="hr">
+            <ul class="header_contact">
+                <li><a href="" class="contact_link"><img src="img/facebook.svg" alt="facebook" /></a></li>
+                <li><a href="" class="contact_link"><img src="img/whatsapp.svg" alt="whatsapp" /></a></li>
+                <li><a href="" class="contact_link"><img src="img/twitter.svg" alt="twitter" /></a></li>
+                <li><a href="" class="contact_link"><img src="img/envelope-fill.svg" alt="mail" /></a></li>
+                <li><a href="" class="contact_link"><img src="img/compass.svg" alt="compass" /></a></li>
+                <li><a href="" class="contact_link"><img src="img/heart.svg" alt="heart" /></a></li>
+            </ul>
+            <img class="header_img" src="img/article_img.jpg" alt="article img"/>
+            <p class="img_desc">Alan Guth was one of the first physicists to hypothesize the existence of inflation,
+               which explains how the universe expanded so uniformly and so quickly in the instant 
+               after the Big Bang 13.8 billion years ago.Credit...<span class="des_span">Rick Friedman for The New York Times</span></p>
+            <a>By Dennis Overbye</a><br>
+            <a>March 17, 2014</a>
+        </header>
         <main>
-            <aside>
-            <h1 class="article_title">Space Ripples Reveal Big Bang's Smoking Gun</h1>
-                <ul class="article_contact">
-                    <li class="contact_link"><a href=""><img src="img/facebook_icon.png" alt="facebook" /></a></li>
-                    <li class="contact_link"><a href=""><img src="img/whatsapp_icon.png" alt="facebook" /></a></li>
-                    <li class="contact_link"><a href=""><img src="img/facebook_icon.png" alt="facebook" /></a></li>
-                    <li class="contact_link"><a href=""><img src="img/facebook_icon.png" alt="facebook" /></a></li>
-                    <li class="contact_link"><a href=""><img src="img/facebook_icon.png" alt="facebook" /></a></li>
-                </ul>
-            <img src="img/article_img.jpg" alt="article img" />
-            <p class="article_description">Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.Credit...Rick Friedman for The New York Times</p>
-            </aside>
+
         </main>
     </body>
 </html>
