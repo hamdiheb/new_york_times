@@ -27,6 +27,17 @@
   font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
 }
 
+#logo {
+    display: flex;
+    margin-left: 270px;
+    width: 250px;
+}
+
+#nav_but {
+    display: flex;
+    margin-left: 300px;
+}
+
 #hr_one {
   display: flex;
   width: 500px;
