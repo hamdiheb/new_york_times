@@ -9,7 +9,7 @@
   justify-content: flex-start;
   list-style: none;
   margin: -3px;
-  padding: 0px;
+  padding: 1px;
   border: 1px solid #666;
   border-left: none;
   border-right: none;
@@ -19,7 +19,7 @@
 }
 
 .nav-link {
-  display: absolute;
+
   margin: 10px;
 }
 
@@ -65,7 +65,7 @@
   background-color: #567b95;
   border: 1px solid #326891;
   font-weight: bold;
-  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-family: helvetica, arial, sans-serif;
   color: white;
 }
 
@@ -80,7 +80,7 @@
   background-color: #567b95;
   border: 1px solid #326891;
   font-weight: bold;
-  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-family: helvetica, arial, sans-serif;
   color: white;
 }
 
@@ -107,10 +107,10 @@
 }
 
 #hr_one {
- width: 700px;
- position: relative;
- top: 80px;
- left: 170px;
+  width: 700px;
+  position: relative;
+  top: 80px;
+  left: 170px;
 }
 
 .article_contact {
@@ -130,7 +130,7 @@
   border-radius: 50%;
 }
 
-.contact_link:hover{
+.contact_link:hover {
   border-color: black;
 }
 
@@ -148,7 +148,7 @@
   height: 35px;
   position: relative;
   left: 170px;
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-family: georgia, 'times new roman', times,serif;
   color: #666;
 }
 
@@ -158,14 +158,14 @@
   position: relative;
   top: 80px;
   left: 300px;
-  color: #333333;
+  color: #333;
   font-weight: bold;
   text-decoration: none;
 }
 
 #img_comment_link {
   text-decoration: none;
-  color: #333333;
+  color: #333;
 }
 
 #img_comment_link:hover {
@@ -176,7 +176,8 @@
   width: 700px;
   position: relative;
   top: 80px;
-  left: 170px; 
+  left: 170px;
+
 }
 
 .article_sign_but {
@@ -193,7 +194,7 @@
   top: 50px;
 }
 
-.para_one{
+.para_one {
   display: flex;
   top: 50px;
   position: relative;
@@ -226,6 +227,7 @@
   width: 700px;
   left: 170px;
 }
+
 #top_para {
   margin-top: -100px;
 }
@@ -234,7 +236,7 @@
   width: 600px;
   position: relative;
   left: 300px;
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-family: georgia, 'times new roman', times,serif;
 }
 
 .rm_txt_decor {
@@ -251,6 +253,7 @@
   position: relative;
   left: 300px;
 }
+
 .second_article {
   display: block;
   position: relative;
