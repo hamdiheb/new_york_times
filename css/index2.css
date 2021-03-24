@@ -1,0 +1,23 @@
+.seecond_article{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+  
+.eelements{
+  display: flex;
+  justify-content: space-between;
+  }
+  
+.first_element{
+    display: flex;
+    flex-direction: column;
+    flex: initial;
+    width: 173px;
+  }
+
+  
+  .grid-img {
+    display: block;
+    width: 80%;
+  }
