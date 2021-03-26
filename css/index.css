@@ -327,18 +327,7 @@
   color: white;
   display: block;
 }
-  
-#log_but {
-  font-weight: bold;
-  color: white;
-  border: 1px solid #326891;
-  background-color: #567b95;
-  border-radius: 3px;
-  font-size: 11px;
-  width: 63px;
-  height: 32px;
-}
-  
+
 .container {
   margin-top: 150px;
 }
