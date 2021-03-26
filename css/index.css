@@ -206,11 +206,9 @@
 }
 
 .para_ten_title {
-  position: relative;
-  left: 350px;
-  top: 15px;
+  width: 140px;
+  height: 22px;
   font-weight: bold;
-  font-size: 120%;
   color: #333;
 }
 
@@ -386,17 +384,6 @@
   padding: 10px;
   font-weight: bold;
   color: #333;
-}
-
-.para_ten_title {
-  width: 140px;
-  height: 22px;
-  font-weight: bold;
-  color: #333;
-}
-
-.second_article_para {
-  color: #666;
 }
 
 .line_third {
