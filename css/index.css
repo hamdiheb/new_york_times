@@ -269,7 +269,7 @@
   height: 160px;
 }
 
-#first_span {
+.first_span {
   font-size: 11px;
   font-weight: bold;
   letter-spacing: 0.05em;
@@ -637,4 +637,13 @@
   position: relative;
   bottom: 33px;
   left: 520px;
+}
+
+#decor_line_2 {
+  width: 40px;
+}
+
+#rm_txt_decor_2 {
+  text-decoration: underline;
+  color: rgb(50, 104, 145);
 }
