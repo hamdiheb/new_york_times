@@ -137,7 +137,7 @@
   text-decoration: underline;
   color: #333;
 }
-  
+
 #comment_span {
   position: relative;
   top: 5px;
@@ -231,11 +231,14 @@
 
 .elements {
   display: flex;
+  width: 950px;
+  height: 580px;
   flex-flow: wrap;
-  width: 900px;
-  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
   position: relative;
-  left: 200px;
+  left: 20px;
+  justify-content: space-between;
 }
 
 .first_element,
@@ -247,8 +250,8 @@
 .seven_element,
 .eigth_element {
   width: 220px;
-  color:black;
-  font-family: arial,helvetica,sans-serif;
+  color: black;
+  font-family: arial, helvetica, sans-serif;
   font-size: 14px;
   line-height: 17px;
   font-weight: 300;
@@ -261,7 +264,7 @@
 .element_fifth_img,
 .element_six_img,
 .element_seven_img,
-.element_eigth_img{
+.element_eigth_img {
   width: 220px;
   height: 160px;
 }
@@ -368,51 +371,39 @@
   position: relative;
   top: -5px;
 }
-  
+
 .sign_button:hover {
   background: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
 }
-  
+ 
 #decor_line {
   width: 40px;
 }
-  
+ 
 #sub_edit {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 50px;
   padding: 10px;
   font-weight: bold;
-  color: #333333;
+  color: #333;
 }
-  
+
 #rm_txt_decor {
   text-decoration: underline;
   color: rgb(50, 104, 145);
 }
-  
+ 
 #para_ten_title {
   width: 140px;
   height: 22px;
   font-weight: bold;
   color: #333;
 }
-  
+ 
 #second_article_para {
   color: #666;
-}
-  
-.elements {
-  display: flex;
-  width: 950px;
-  height: 580px;
-  flex-flow: wrap;
-  margin-right: auto;
-  margin-left: auto;
-  position: relative;
-  left: 20px;
-  justify-content: space-between;
 }
   
 #first_span {
