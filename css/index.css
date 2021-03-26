@@ -633,3 +633,11 @@
   height: 315px;
 }
 
+#bot_nav_link {
+  text-decoration: none;
+  color: #000;
+}
+
+#bot_nav_link_span {
+  font-weight: bold;
+}
