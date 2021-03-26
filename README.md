@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# The New York Times
 
 > The New York Times Clone is a project for who are interested in knowing the news in the easiest way .
 
