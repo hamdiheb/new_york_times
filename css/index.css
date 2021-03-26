@@ -6,8 +6,9 @@
   position: fixed;
   background-color: white;
   height: 40px;
-  width: 96%;
+  width: 100%;
   z-index: 1;
+  top: -20px;
 }
 
 .list {
@@ -323,19 +324,6 @@
   color: white;
   display: block;
 }
-
-.nav {
-  display: flex;
-  justify-content: flex-start;
-  list-style: none;
-  border-bottom: 1px solid #666;
-  position: fixed;
-  background-color: white;
-  height: 40px;
-  width: 100%;
-  z-index: 1;
-  top: -20px;
-  }
 
 .list {
   position: relative;
