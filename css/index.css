@@ -744,6 +744,8 @@ font-weight: 700;
 .footer_last_nav{
   width: 90%;
   margin: auto;
+  position: relative;
+  bottom: 30px;
 }
 
 .footer_grid{
@@ -804,7 +806,9 @@ font-weight: 700;
   border-top: 1px solid #666666;
   padding-top: 10px;
   text-align: center;
+  top: -20px;
 }
+
 
 #fast_link {
   text-decoration: none;
@@ -813,4 +817,32 @@ font-weight: 700;
 
 #fast_link:hover {
   text-decoration: underline;
+}
+
+.bot_nav {
+  width: 100%;
+  margin-top: 40px;
+  border-top: 1px solid #333;
+  position: fixed;
+  margin-top: 60px;
+  top: 560px;
+  background-color: white;
+  text-align: center;
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+}
+
+#expand_footer {
+  position: relative;
+  bottom: 37px;
+  left: 490px;
+  font-size: 13px;
+  text-decoration: none;
+  color: #121212;
+  font-weight: bold;
+}
+
+#up_img {
+  position: relative;
+  bottom: 33px;
+  left: 520px;
 }
