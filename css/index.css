@@ -109,9 +109,6 @@
 
 .contact_link {
   margin: 5px;
-  background-color: #eee;
-  border: 1px #eee solid;
-  border-radius: 50%;
 }
 
 .articl_img {
@@ -331,22 +328,22 @@
 .container {
   margin-top: 150px;
 }
-  
+
 .header_title {
   display: block;
   width: 600px;
   height: 69px;
   color: #121;
-  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
   font-weight: 700;
   font-style: italic;
   font-size: 40px;
   position: relative;
   left: 339px;
   padding: 25px;
-  border-bottom: 1px solid #E0E0E0;
+  border-bottom: 1px solid #e0e0e0;
 }
-  
+
 .article_contact {
   display: flex;
   list-style: none;
@@ -355,10 +352,6 @@
   justify-content: center;
   position: relative;
   left: 100px;
-}
-  
-.contact_link {
-  margin: 5px;
 }
   
 .articl_img {
