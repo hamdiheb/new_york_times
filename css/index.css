@@ -101,21 +101,26 @@
 
 .article_contact {
   display: flex;
-  justify-content: center;
   list-style: none;
+  width: 600px;
+  height: 53px;
+  justify-content: center;
   position: relative;
-  right: 200px;
+  left: 100px;
 }
 
 .contact_link {
   margin: 5px;
 }
 
-.articl_img {
-  width: 1100px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.article_contact {
+  display: flex;
+  list-style: none;
+  width: 600px;
+  height: 53px;
+  justify-content: center;
+  position: relative;
+  left: 100px;
 }
 
 .img_desc {
@@ -344,24 +349,6 @@
   border-bottom: 1px solid #e0e0e0;
 }
 
-.article_contact {
-  display: flex;
-  list-style: none;
-  width: 600px;
-  height: 53px;
-  justify-content: center;
-  position: relative;
-  left: 100px;
-}
-  
-.articl_img {
-  display: block;
-  width: 945px;
-  height: 531px;
-  margin-left: auto;
-  margin-right: auto;
-}
-  
 .img_desc {
   width: 700px;
   height: 35px;
