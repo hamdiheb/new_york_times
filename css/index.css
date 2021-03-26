@@ -463,6 +463,8 @@
 
 .footer_article {
   display: flex;
+  position: relative;
+  left: 70px;
 }
 
 .book_info {
@@ -491,17 +493,18 @@
 }
 
 .hr_books {
-  width: 900px;
+  width: 860px;
   position: relative;
-  top: -22px;
-  right: 40px;
+  top: -20px;
+  left: 5px;
   color: black;
 }
 
 .hr_books_2 {
-  width: 900px;
+  width: 860px;
   position: relative;
-  right: 40px;
+  top: -3px;
+  left: 5px;
 }
 
 .hr_footer {
@@ -641,3 +644,67 @@
 #bot_nav_link_span {
   font-weight: bold;
 }
+
+.hr_space_articles {
+  width: 860px;
+  height: 2px;
+  position: relative;
+  top: -2px;
+}
+
+.space_img {
+  width: 270px;
+  height: 180px;
+}
+
+.space_event_title {
+  font-size: 60%;
+  text-align: right;
+  color: rgb(153, 153, 153);
+  position: relative;
+  right: 15px;
+}
+
+.space_event_comment {
+  font-weight: 600;
+  text-decoration: none;
+  color: rgb(18, 18, 18);
+  position: relative;
+  left: 5px;
+}
+
+.space_event_comment:hover {
+  color: rgb(153, 153, 153);
+}
+
+.space_event_date {
+  color: rgb(153, 153, 153);
+  font-size: 90%;
+  position: relative;
+  top: -12px;
+  left: 5px;
+}
+
+.space {
+  border: none;
+}
+
+.space-footer-title {
+  text-decoration: none;
+  color: #000;
+  position: relative;
+  left: 75px;
+  top: -5px;
+  font-weight: 700;
+}
+
+.space-footer-title:hover {
+  text-decoration: underline;
+}
+
+.hr_books_3 {
+  width: 900px;
+  position: relative;
+  right: 75px;
+}
+
