@@ -28,7 +28,7 @@
   left: 20px;
 }
 
-#title {
+.title {
   text-decoration: none;
   font-weight: bold;
   color: black;
@@ -43,7 +43,7 @@
   left: 320px;
 }
 
-#logo_link {
+.logo_link {
   width: 200px;
   height: 30px;
 }
@@ -60,7 +60,7 @@
   top: 6px;
 }
 
-#sub_but {
+.sub_but {
   font-weight: bold;
   color: white;
   border: 1px solid #326891;
@@ -71,7 +71,7 @@
   height: 32px;
 }
 
-#log_but {
+.log_but {
   font-weight: bold;
   color: white;
   border: 1px solid #326891;
@@ -116,7 +116,7 @@
 .img_desc {
   width: 720px;
   position: relative;
-  left: 80px;
+  left: 160px;
   color: #666;
 }
 
@@ -133,12 +133,12 @@
   color: #333;
 }
 
-#img_comment_link {
+.img_comment_link {
   text-decoration: underline;
   color: #333;
 }
 
-#comment_span {
+.comment_span {
   position: relative;
   top: 5px;
 }
@@ -177,17 +177,17 @@
   font-size: 100%;
 }
 
-#edit_four {
+.edit_four {
   position: relative;
   top: 35px;
 }
 
-#edit {
+.edit {
   position: relative;
   top: 20px;
 }
 
-#edit_two {
+.edit_two {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 50px;
@@ -205,7 +205,7 @@
   margin-top: -50px;
 }
 
-#para_six_hr {
+.para_six_hr {
   width: 60px;
   position: relative;
   left: 30px;
@@ -223,6 +223,8 @@
 .second_article_header {
   width: 905px;
   display: block;
+  position: relative;
+  left: 180px;
 }
 
 .second_article_para {
@@ -283,7 +285,7 @@
   right: 270px;
 }
 
-#article_three_header_one {
+.article_three_header_one {
   font-weight: bold;
   font-size: 120%;
 }
@@ -293,11 +295,11 @@
   height: 400px;
 }
 
-#article_2_img_comments {
+.article_2_img_comments {
   color: #666;
 }
 
-#article_2_img_span {
+.article_2_img_span {
   color: #888;
 }
 
@@ -335,7 +337,7 @@
   display: block;
   width: 600px;
   height: 69px;
-  color: #121;
+  color: #000;
   font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
   font-weight: 700;
   font-style: italic;
@@ -358,7 +360,7 @@
   margin-right: auto;
 }
 
-#header_span {
+.header_span {
   font-weight: 700;
 }
 
@@ -379,11 +381,11 @@
   color: rgb(255, 255, 255);
 }
 
-#decor_line {
+.decor_line {
   width: 40px;
 }
 
-#sub_edit {
+.sub_edit {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 50px;
@@ -392,27 +394,27 @@
   color: #333;
 }
 
-#rm_txt_decor {
+.rm_txt_decor {
   text-decoration: underline;
   color: rgb(50, 104, 145);
 }
 
-#para_ten_title {
+.para_ten_title {
   width: 140px;
   height: 22px;
   font-weight: bold;
   color: #333;
 }
 
-#second_article_para {
+.second_article_para {
   color: #666;
 }
 
-#line_third {
+.line_third {
   width: 30px;
 }
 
-#vid_comment {
+.vid_comment {
   width: 540px;
   height: 38px;
   margin-right: 7px;
@@ -422,28 +424,29 @@
   text-align: left;
 }
 
-#vid_span {
+.vid_span {
   color: #888;
   font-size: 13px;
 }
 
-#article_two_header_one {
+.article_two_header_one {
   font-size: 20px;
   color: #333;
   font-weight: bold;
 }
-
-#article_img_2 {
-  width: 600px;
-  height: 400px;
+.articl_img {
+  width: 945px;
+  height: 530px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-#article_two_img_comments {
+.article_two_img_comments {
   color: #666;
   font-size: 60%;
 }
 
-#comment_button {
+.comment_button {
   width: 330px;
   height: 36px;
   background-color: rgb(86, 123, 149);
@@ -468,16 +471,16 @@
   top: -30px;
 }
 
-#float_element {
+.float_element {
   text-decoration: none;
   color: black;
 }
 
-#float_element:hover {
+.float_element:hover {
   color: #888;
 }
 
-#footer_book_img {
+.footer_book_img {
   width: 80px;
   position: relative;
   top: 10px;
@@ -494,19 +497,19 @@
   display: flex;
 }
 
-#book_info {
+.book_info {
   position: relative;
   left: 8px;
   color: #333;
 }
 
-#book_title {
+.book_title {
   position: relative;
   left: 8px;
   font-size: 90%;
 }
 
-#book_latest {
+.book_latest {
   text-decoration: none;
   position: relative;
   left: 8px;
@@ -515,11 +518,11 @@
   align-self: flex-start;
 }
 
-#book_latest:hover {
+.book_latest:hover {
   text-decoration: underline;
 }
 
-#hr_books {
+.hr_books {
   width: 900px;
   position: relative;
   top: -22px;
@@ -527,13 +530,13 @@
   color: black;
 }
 
-#hr_books_2 {
+.hr_books_2 {
   width: 900px;
   position: relative;
   right: 40px;
 }
 
-#hr_footer {
+.hr_footer {
   height: 3px;
 }
 
@@ -545,7 +548,7 @@
   width: 90%;
   margin: auto;
   position: relative;
-  bottom: 30px;
+  top: -60px;
 }
 
 .footer_grid {
@@ -554,7 +557,7 @@
   margin-top: 30px;
 }
 
-#footer_title_bold {
+.footer_title_bold {
   color: rgb(51, 51, 51);
   font-size: 13px;
   font-weight: 700;
@@ -564,7 +567,7 @@
   width: 150px;
 }
 
-#footer_item_link {
+.footer_item_link {
   text-decoration: none;
   color: rgb(0, 0, 0);
   display: inline-block;
@@ -576,7 +579,7 @@
   line-height: 16px;
 }
 
-#footer_item_link:hover {
+.footer_item_link:hover {
   text-decoration: underline;
 }
 
@@ -585,7 +588,7 @@
   padding-left: 20px;
 }
 
-#item_link {
+.item_link {
   text-decoration: none;
 }
 
@@ -600,15 +603,15 @@
   border-top: 1px solid #666;
   padding-top: 10px;
   text-align: center;
-  top: -20px;
+  top: 10px;
 }
 
-#fast_link {
+.fast_link {
   text-decoration: none;
   color: #666;
 }
 
-#fast_link:hover {
+.fast_link:hover {
   text-decoration: underline;
 }
 
@@ -623,7 +626,7 @@
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
 
-#expand_footer {
+.expand_footer {
   position: relative;
   bottom: 37px;
   left: 490px;
@@ -633,17 +636,22 @@
   font-weight: bold;
 }
 
-#up_img {
+.up_img {
   position: relative;
   bottom: 33px;
   left: 520px;
 }
 
-#decor_line_2 {
+.decor_line_2 {
   width: 40px;
 }
 
-#rm_txt_decor_2 {
+.rm_txt_decor_2 {
   text-decoration: underline;
   color: rgb(50, 104, 145);
+}
+
+#footer_logo {
+  position: relative;
+  top: 15px;
 }
