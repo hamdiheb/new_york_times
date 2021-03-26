@@ -137,7 +137,7 @@
   text-decoration: underline;
   color: #333;
 }
-
+  
 #comment_span {
   position: relative;
   top: 5px;
@@ -221,10 +221,8 @@
 }
 
 .second_article_header {
-  width: 900px;
-  position: relative;
-  left: 200px;
-  margin-top: 50px;
+  width: 905px;
+  display: block;
 }
 
 .second_article_para {
@@ -249,7 +247,11 @@
 .seven_element,
 .eigth_element {
   width: 220px;
-  color: black;
+  color:black;
+  font-family: arial,helvetica,sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
 }
 
 .element_one_img,
@@ -259,7 +261,7 @@
 .element_fifth_img,
 .element_six_img,
 .element_seven_img,
-.element_eigth_img {
+.element_eigth_img{
   width: 220px;
   height: 160px;
 }
@@ -339,36 +341,6 @@
   border-bottom: 1px solid #e0e0e0;
 }
 
-.img_desc {
-  width: 720px;
-  position: relative;
-  left: 80px;
-  color: #666;
-}
-
-.des_span {
-  color: #888;
-}
-
-.img_comment {
-  width: 170px;
-  margin-top: 70px;
-  position: relative;
-  left: 350px;
-  font-weight: bold;
-  color: #333;
-}
-
-#img_comment_link {
-  text-decoration: underline;
-  color: #333;
-}
-  
-#comment_span {
-  position: relative;
-  top: 5px;
-}
-  
 .articles_content,
 .second_article {
   width: 600px;
@@ -380,7 +352,7 @@
   margin-left: auto;
   margin-right: auto;
 }
-  
+
 #header_span {
   font-weight: 700;
 }
@@ -427,11 +399,6 @@
   color: #333;
 }
   
-.second_article_header {
-  width: 905px;
-  display: block;
-}
-  
 #second_article_para {
   color: #666;
 }
@@ -446,34 +413,6 @@
   position: relative;
   left: 20px;
   justify-content: space-between;
-}
-  
-.first_element,
-.second_element,
-.third_element,
-.fourth_element,
-.fifth_element,
-.six_element,
-.seven_element,
-.eigth_element {
-  width: 220px;
-  color:black;
-  font-family: arial,helvetica,sans-serif;
-  font-size: 14px;
-  line-height: 17px;
-  font-weight: 300;
-}
-  
-.element_one_img,
-.element_two_img,
-.element_third_img,
-.element_fourth_img,
-.element_fifth_img,
-.element_six_img,
-.element_seven_img,
-.element_eigth_img{
-  width: 220px;
-  height: 160px;
 }
   
 #first_span {
