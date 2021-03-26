@@ -298,8 +298,7 @@
 }
 
 #article_2_img_span {
-  font-weight: 13px;
-  color: #888888;
+  color: #888;
 }
 
 .last_para {
@@ -308,7 +307,7 @@
 
 .last_para_link {
   text-decoration: underline;
-  color: #666;
+  color: #666666;
 }
 
 .nav_footer {
@@ -412,14 +411,14 @@
 #line_third {
   width: 30px;
 }
- 
+
 #vid_comment {
   width: 540px;
   height: 38px;
   margin-right: 7px;
   color: #666;
   font-size: 15px;
-  font-family: nyt-imperial, georgia, 'times new roman', times,serif;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   text-align: left;
 }
 
@@ -433,7 +432,7 @@
   color: #333;
   font-weight: bold;
 }
- 
+
 #article_img_2 {
   width: 600px;
   height: 400px;
@@ -442,15 +441,6 @@
 #article_two_img_comments {
   color: #666;
   font-size: 60%;
-}
-
-.last_para {
-  font-size: 80%;
-}
-  
-.last_para_link {
-  text-decoration: underline;
-  color: #666666;
 }
 
 .nav_footer {
