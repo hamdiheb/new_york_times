@@ -23,12 +23,6 @@
 }
 
 .title {
-  position: relative;
-  top: 10px;
-  left: 20px;
-}
-
-.title {
   text-decoration: none;
   font-weight: bold;
   color: black;
@@ -197,7 +191,7 @@
 }
 
 .rm_txt_decor {
-  text-decoration: none;
+  text-decoration: underline;
   color: rgb(50, 104, 145);
 }
 
@@ -392,11 +386,6 @@
   padding: 10px;
   font-weight: bold;
   color: #333;
-}
-
-.rm_txt_decor {
-  text-decoration: underline;
-  color: rgb(50, 104, 145);
 }
 
 .para_ten_title {
