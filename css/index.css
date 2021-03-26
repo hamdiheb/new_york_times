@@ -253,8 +253,7 @@
 .seven_element,
 .eigth_element {
   width: 220px;
-  color:black;
-  font-weight: 14px;
+  color: black;
 }
 
 .element_one_img,
@@ -293,11 +292,9 @@
 
 #article_2_img_comments {
   color: #666;
-  font-weight: 15px;
 }
 
 #article_2_img_span {
-  font-weight: 13px;
   color: #888;
 }
 
