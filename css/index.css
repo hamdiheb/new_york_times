@@ -237,7 +237,6 @@
 
 .elements {
   display: flex;
-  justify-content: flex-start;
   flex-flow: wrap;
   width: 900px;
   justify-content: space-between;
