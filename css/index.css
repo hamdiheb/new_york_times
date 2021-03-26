@@ -586,7 +586,9 @@
 .bot_nav {
   width: 100%;
   border-top: 1px solid #333;
+  position: fixed;
   margin-top: 60px;
+  top: 560px;
   background-color: white;
   text-align: center;
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
