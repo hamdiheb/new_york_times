@@ -314,7 +314,7 @@
   float: right;
   position: relative;
   top: -5px;
-  left: 150px;
+  left: 130px;
 }
 
 .comment_button {
@@ -443,13 +443,6 @@
   font-size: 60%;
 }
 
-.nav_footer {
-  float: right;
-  position: relative;
-  top: -5px;
-  left: 130px;
-}
-
 #comment_button {
   width: 330px;
   height: 36px;
@@ -461,12 +454,12 @@
   position: relative;
   top: -90px;
 }
- 
+
 .footer {
   width: 1200px;
   position: relative;
 }
- 
+
 .float_footer {
   width: 200px;
   float: right;
@@ -483,36 +476,36 @@
 #float_element:hover {
   color: #888;
 }
- 
+
 #footer_book_img {
   width: 80px;
   position: relative;
   top: 10px;
   left: 10px;
 }
- 
+
 .articles {
   width: 280px;
   border: 1px solid #888;
   margin: 5px;
 }
- 
+
 .footer_article {
   display: flex;
 }
- 
+
 #book_info {
   position: relative;
   left: 8px;
   color: #333;
 }
- 
+
 #book_title {
   position: relative;
   left: 8px;
   font-size: 90%;
 }
- 
+
 #book_latest {
   text-decoration: none;
   position: relative;
@@ -590,11 +583,6 @@
 .footer_item_subscribe {
   border-left: 1px solid #666;
   padding-left: 20px;
-}
-
-.footer_fast_link {
-  margin-top: 30px;
-  width: 1200px;
 }
 
 #item_link {
