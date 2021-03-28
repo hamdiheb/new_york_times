@@ -48,7 +48,7 @@ To get a local copy up and running follow these simple example steps.
 
 - GitHub: [@hamdiheb](https://github.com/hamdiheb)
 - Twitter: [@hamdiheb](https://twitter.com/hamdiheb)
-- LinkedIn: [hamdiheb](https://www.linkedin.com/in/hamdi-iheb-b3ba16206)
+- LinkedIn: [hamdiheb](https://www.linkedin.com/in/hamdi-iheb-b3ba16206/)
 
 
 ## 🤝 Contributing
