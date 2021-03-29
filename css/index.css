@@ -707,3 +707,23 @@
   position: relative;
   right: 75px;
 }
+
+.input_form_1 {
+  position: relative;
+  left: 29px;
+}
+
+.input_form_2 {
+  position: relative;
+  left: 21px;
+}
+
+.input_email {
+  margin-top: 5px;
+}
+
+.input_text {
+  margin-top: 5px;
+  position: relative;
+  left: 65px;
+}
